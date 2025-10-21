@@ -1,7 +1,6 @@
-
 © Copyright 2025 by hackbard
 
-LIZENZ [v1.0 2001.09.11-2025.08.17]
+LIZENZ [v1.0 2001.09.11-2025.08.06]
 
 
 DIESES PROGRAM:
