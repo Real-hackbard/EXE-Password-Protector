@@ -1,19 +1,22 @@
 # EXE-Password-Protector:
 
-```ruby
-Compiler    : Delphi7 (or Higher)
-Components  : ChkSums.pas, EditRexe.pas, uRunPE.pas
-Discription : Password Protection to Executable (.exe) files.
-Last Update : 08/2025
-License     : Freeware
-```
+</br>
+
+![Compiler](https://github.com/user-attachments/assets/a916143d-3f1b-4e1f-b1e0-1067ef9e0401) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ![D7](https://github.com/user-attachments/assets/a0cd940c-4ec5-42ba-988e-2fde2223d582)  
+![Components](https://github.com/user-attachments/assets/d6a7a7a4-f10e-4df1-9c4f-b4a1a8db7f0e) : ![None](https://github.com/user-attachments/assets/30ebe930-c928-4aaf-a8e1-5f68ec1ff349)  
+![Discription](https://github.com/user-attachments/assets/4a778202-1072-463a-bfa3-842226e300af) &nbsp;&nbsp;: ![EXE Password Protector](https://github.com/user-attachments/assets/23e23ee7-200b-4fd4-b8ae-f4b6d22f80f5)  
+![Last Update](https://github.com/user-attachments/assets/e1d05f21-2a01-4ecf-94f3-b7bdff4d44dd) &nbsp;: ![102025](https://github.com/user-attachments/assets/62cea8cc-bd7d-49bd-b920-5590016735c0)  
+![License](https://github.com/user-attachments/assets/ff71a38b-8813-4a79-8774-09a2f3893b48) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ![Freeware](https://github.com/user-attachments/assets/1fea2bbf-b296-4152-badd-e1cdae115c43)
+
+</br>
 
 An "exe password protector" is software designed to add password protection to executable (.exe) files, preventing unauthorized access to the program. This means that when someone tries to run the protected .exe, they will be prompted for a password before the program can launch. 
 
+</br>
 
 ![EXEPasswordCreatorr](https://github.com/user-attachments/assets/e20f97ef-afd8-411b-b0d6-d7b038f29980)
 
-
+</br>
 
 ### Prevents Unauthorized Access:
 It restricts access to your applications by requiring a password to run them. 
@@ -133,14 +136,17 @@ The crypter not only encrypts the execution but also protects the file from unau
  Edit:             String = '4564697400';
 ```
 
+</br>
+
 Encryption works reliably with 32-bit EXE files. 64-bit versions can be problematic. Therefore, a checkbox must be enabled in the options to allow an attempt to encrypt a 64-bit file, which often fails.
 
 You can now try to extract the password using a dumper, but this process, even if successful, will not provide the real password because it is also encrypted.
 
+</br>
 
 <img width="600" height="563" alt="headers-of-the-PE-file" src="https://github.com/user-attachments/assets/359179ec-8d74-4569-a7f0-a007c1e7ac3f" />
 
-
+</br>
 
 ### Virus false alarm:
 Once the file is encrypted, the information is no longer the same and is classified as potentially dangerous by virus programs.
